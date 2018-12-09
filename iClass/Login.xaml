@@ -1,0 +1,86 @@
+﻿<Window x:Class="iClass.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="iClass Login" Height="469.894" Width="809.918" Background="White" Closing="windowClose" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,-3">
+        <Label Content="Sign in" HorizontalAlignment="Left" Margin="288,0,0,0" VerticalAlignment="Top" Width="209" Foreground="Green" FontFamily="Century Gothic" FontSize="65" Height="89">
+            
+        </Label>
+        <Label Content="with your iClass UserID and Password" HorizontalAlignment="Left" Foreground="Green" FontSize="16" FontFamily="Century Gothic" Margin="246,94,0,0" VerticalAlignment="Top" Height="27" Width="293"/>
+        <TextBox Name="userIdTextBox" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Background="White" Foreground="DarkGreen" FontFamily="Century Gothic" Height="26" Margin="348,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" FontSize="14" RenderTransformOrigin="0.5,0.5">
+            
+        </TextBox>
+        <PasswordBox Name="passwordTextBox" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"  HorizontalAlignment="Left" Background="White" Height="26" Margin="348,188,0,0" VerticalAlignment="Top" Width="163">
+
+        </PasswordBox>
+        <Label Content="User ID:" Foreground="Green" FontFamily="Century Gothic" FontSize="15" HorizontalAlignment="Left" Margin="275,145,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label Content="Password:" Foreground="Green" FontFamily="Century Gothic" FontSize="15" HorizontalAlignment="Left" Margin="260,188,0,0" VerticalAlignment="Top" Width="83"/>
+        <Button Name="signInButton" HorizontalAlignment="Left" Margin="348,235,0,0" VerticalAlignment="Top" Width="87" Height="23" Click="SignIn_buttonClick">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Content" Value="Sign In"/>
+                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="Foreground" Value="Green"/>
+                    <Setter Property="FontFamily" Value="Century Gothic"/>
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="Green" BorderThickness="1.5" Margin="0,0,3,-5">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="BorderBrush" Value="Green"/>
+                            <Setter Property="ToolTip" Value="Click to sign in"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" Value="White"/>
+                            <Setter Property="Foreground" Value="Black"/>
+                            <Setter Property="Cursor" Value="Wait"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Label Content="a step towards digital education" Foreground="Green" FontFamily="Century Gothic" FontSize="13" HorizontalAlignment="Left" Margin="288,361,0,0" VerticalAlignment="Top" Width="234"/>
+        <Label Content="Rocket Education of Science and Technology with Rocket Technologies" Foreground="Green" FontFamily="Century Gothic" FontSize="16" HorizontalAlignment="Left" Margin="125,343,0,0" VerticalAlignment="Top" Width="574"/>
+        <Label Content="Crafted with" Foreground="Green" FontFamily="Century Gothic" FontSize="13" HorizontalAlignment="Left" Margin="275,392,0,0" VerticalAlignment="Top" Width="101"/>
+        <Image HorizontalAlignment="Left" Height="22" Source="images/love.jpg" Margin="366,397,0,0" VerticalAlignment="Top" Width="26"/>
+        <Image HorizontalAlignment="Left" Height="42" Source="images/MakeInIndia.jpg" Margin="10,384,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label Content=" in India" Foreground="Green" FontFamily="Century Gothic" FontSize="13" HorizontalAlignment="Left" Margin="392,393,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.432,0.531"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="356,274,0,0" Source="images/Rocket.jpg" VerticalAlignment="Top" Width="105"/>
+        <Button  HorizontalAlignment="Left" Margin="760,397,0,0" VerticalAlignment="Top" Width="34" Height="29" Click="ProductInfo_ButtonClick">
+            <Image Source="images/support.png" RenderTransformOrigin="0.5,0.5"/>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="WhiteSmoke"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="WhiteSmoke" BorderThickness="1.5" Margin="0,0,3,-5">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                             <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="ToolTip" Value="Check Product Info"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+        </Button>
+    </Grid>
+</Window>

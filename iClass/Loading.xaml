@@ -1,0 +1,9 @@
+﻿<Window x:Class="iClass.Loading"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Loading"  FontFamily="Segoe UI" ResizeMode="NoResize" ShowInTaskbar="False"
+        Height="50" Width="130" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock Name="txtBlock" Text="Loading..." Margin="31,15,23,10" FontFamily="CenturyGothic" FontSize="17" />
+    </Grid>
+</Window>

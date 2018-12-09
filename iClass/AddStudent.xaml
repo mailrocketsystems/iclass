@@ -1,0 +1,121 @@
+﻿<Window x:Class="iClass.AddStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Student" Height="262.82" Width="536.436" Background="WhiteSmoke" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Select Class : " FontFamily="Century Gothic" FontWeight="Bold" Foreground="Green" HorizontalAlignment="Left" Margin="125,26,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="selectClassComboBox" HorizontalAlignment="Left" Margin="229,26,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label Content="Student Name : " FontFamily="Century Gothic" FontWeight="Bold" Foreground="Green" HorizontalAlignment="Left" Margin="112,60,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="studentNameTextBox" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="229,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150">
+            <TextBox.Style>
+                <Style TargetType="TextBox" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+                    <Style.Resources>
+                        <VisualBrush x:Key="CueBannerBrush" AlignmentX="Left" AlignmentY="Center" Stretch="None">
+                            <VisualBrush.Visual>
+                                <Label Content=" Name" Foreground="Gray" />
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Style.Resources>
+                    <Style.Triggers>
+                        <Trigger Property="Text" Value="{x:Static sys:String.Empty}">
+                            <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                        </Trigger>
+                        <Trigger Property="Text" Value="{x:Null}">
+                            <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsKeyboardFocused" Value="True">
+                            <Setter Property="Background" Value="White" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+
+        <Label Content="Student Email ID : " FontFamily="Century Gothic" FontWeight="Bold" Foreground="Green" HorizontalAlignment="Left" Margin="102,100,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="studentEmailTextBox" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="229,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150">
+            <TextBox.Style>
+                <Style TargetType="TextBox" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+                    <Style.Resources>
+                        <VisualBrush x:Key="CueBannerBrush" AlignmentX="Left" AlignmentY="Center" Stretch="None">
+                            <VisualBrush.Visual>
+                                <Label Content=" Email ID" Foreground="Gray" />
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Style.Resources>
+                    <Style.Triggers>
+                        <Trigger Property="Text" Value="{x:Static sys:String.Empty}">
+                            <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                        </Trigger>
+                        <Trigger Property="Text" Value="{x:Null}">
+                            <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsKeyboardFocused" Value="True">
+                            <Setter Property="Background" Value="White" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+
+        <Label Content="Student Phone Number : " FontFamily="Century Gothic" FontWeight="Bold" Foreground="Green" HorizontalAlignment="Left" Margin="62,136,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="studentPhoneNumberTextBox" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="24" Margin="229,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150">
+            <TextBox.Style>
+                <Style TargetType="TextBox" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+                    <Style.Resources>
+                        <VisualBrush x:Key="CueBannerBrush" AlignmentX="Left" AlignmentY="Center" Stretch="None">
+                            <VisualBrush.Visual>
+                                <Label Content=" Phone Number" Foreground="Gray" />
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Style.Resources>
+                    <Style.Triggers>
+                        <Trigger Property="Text" Value="{x:Static sys:String.Empty}">
+                            <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                        </Trigger>
+                        <Trigger Property="Text" Value="{x:Null}">
+                            <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsKeyboardFocused" Value="True">
+                            <Setter Property="Background" Value="White" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+
+
+        <Button Name="addStudentButton" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="203,187,0,0" VerticalAlignment="Top" Width="123" Height="20" Click="AddStudent_ButtonClick">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Content" Value="Add Student"/>
+                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="Foreground" Value="Green"/>
+                    <Setter Property="FontFamily" Value="Century Gothic"/>
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="Green" BorderThickness="1.5" Margin="0,0,3,-5">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="BorderBrush" Value="Green"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="ToolTip" Value="Proceed to add student"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" Value="White"/>
+                            <Setter Property="Foreground" Value="Black"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Window>

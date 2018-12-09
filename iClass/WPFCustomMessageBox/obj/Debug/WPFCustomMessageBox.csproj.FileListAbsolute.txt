@@ -1,0 +1,12 @@
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\bin\Debug\WPFCustomMessageBox.XML
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\bin\Debug\WPFCustomMessageBox.dll
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\bin\Debug\WPFCustomMessageBox.pdb
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\obj\Debug\WPFCustomMessageBox.csprojResolveAssemblyReference.cache
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\obj\Debug\CustomMessageBoxWindow.baml
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\obj\Debug\CustomMessageBoxWindow.g.cs
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\obj\Debug\WPFCustomMessageBox_MarkupCompile.cache
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\obj\Debug\WPFCustomMessageBox.g.resources
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\obj\Debug\WPFCustomMessageBox.Properties.Resources.resources
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\obj\Debug\WPFCustomMessageBox.csproj.GenerateResource.Cache
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\obj\Debug\WPFCustomMessageBox.dll
+D:\Abhinav\Visual Studio\WPFCustomMessageBox-master\source\WPFCustomMessageBox\obj\Debug\WPFCustomMessageBox.pdb

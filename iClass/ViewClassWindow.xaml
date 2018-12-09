@@ -1,0 +1,274 @@
+﻿<Window x:Class="iClass.ViewClassWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="View Class" Height="727" Width="1365" Background="WhiteSmoke" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Height="685" Width="1335">
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,10,675,636">
+            <Grid>
+                <TextBox Text="Student 1 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s1NameTextBox" FontWeight="Medium" VerticalContentAlignment="Center" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s1PhoneNumberTextBox" FontWeight="Medium" VerticalContentAlignment="Center" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s1EmailIdTextBox" FontWeight="Medium" VerticalContentAlignment="Center" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s1Attendance" FontWeight="Medium" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="598,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,60,675,586">
+            <Grid>
+                <TextBox Text="Student 2 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s2NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s2PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s2EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s2Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,110,675,536">
+            <Grid>
+                <TextBox Text="Student 3 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s3NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s3PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s3EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s3Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,160,675,486">
+            <Grid>
+                <TextBox Text="Student 4 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s4NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s4PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s4EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s4Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,210,675,436">
+            <Grid>
+                <TextBox Text="Student 5 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s5NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s5PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s5EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s5Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,260,675,386">
+            <Grid>
+                <TextBox Text="Student 6 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s6NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s6PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s6EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s6Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,310,675,336">
+            <Grid>
+                <TextBox Text="Student 7 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s7NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s7PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s7EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s7Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,360,675,286">
+            <Grid>
+                <TextBox Text="Student 8 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s8NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s8PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s8EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s8Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,410,675,236">
+            <Grid>
+                <TextBox Text="Student 9 :"   Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s9NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s9PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s9EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s9Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,460,675,186">
+            <Grid>
+                <TextBox Text="Student 10 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s10NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s10PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s10EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s10Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,510,675,136">
+            <Grid>
+                <TextBox Text="Student 11 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s11NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s11PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s11EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s11Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,560,675,86">
+            <Grid>
+                <TextBox Text="Student 12 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s12NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s12PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s12EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s12Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="10,610,675,36">
+            <Grid>
+                <TextBox Text="Student 13 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s13NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s13PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s13EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s13Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,10,10,636">
+            <Grid>
+                <TextBox Text="Student 14 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s14NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s14PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s14EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s14Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+
+
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,60,10,586">
+            <Grid>
+                <TextBox Text="Student 15 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s15NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s15PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s15EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s15Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+
+
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,110,10,536">
+            <Grid>
+                <TextBox Text="Student 16 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s16NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s16PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s16EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s16Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,160,10,486">
+            <Grid>
+                <TextBox Text="Student 17 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s17NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s17PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s17EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s17Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,210,10,436">
+            <Grid>
+                <TextBox Text="Student 18 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s18NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s18PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s18EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s18Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,260,10,386">
+            <Grid>
+                <TextBox Text="Student 19 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s19NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s19PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s19EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s19Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,310,10,336">
+            <Grid>
+                <TextBox Text="Student 20 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s20NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s20PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s20EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s20Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,360,10,286">
+            <Grid>
+                <TextBox Text="Student 21 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s21NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s21PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s21EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s21Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,410,10,236">
+            <Grid>
+                <TextBox Text="Student 22 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s22NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s22PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s22EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s22Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,460,10,186">
+            <Grid>
+                <TextBox Text="Student 23 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s23NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s23PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s23EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s23Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,510,10,136">
+            <Grid>
+                <TextBox Text="Student 24 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s24NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s24PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s24EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s24Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,560,10,86">
+            <Grid>
+                <TextBox Text="Student 25 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s25NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s25PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s25EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s25Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+        <Border BorderThickness="1" BorderBrush="Gray" Margin="675,610,10,36">
+            <Grid>
+                <TextBox Text="Student 26 :"  Background="WhiteSmoke" BorderBrush="White" BorderThickness="0.5" FontWeight="Bold" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
+                <TextBox  Name="s26NameTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="79,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+                <TextBox  Name="s26PhoneNumberTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="242,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox  Name="s26EmailIdTextBox" FontWeight="Medium" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="357,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"/>
+                <TextBox  Name="s26Attendance" FontWeight="Medium" IsEnabled="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="22" Margin="593,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+            </Grid>
+        </Border>
+
+
+
+    </Grid>
+</Window>
